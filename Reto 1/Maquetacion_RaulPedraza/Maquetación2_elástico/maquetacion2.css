@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 60em;
+  margin: 0 25%;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+#izquierda {
+  float: left;
+  width: 16em;
+}
+
+#derecha {
+  float: left;
+  width: 44em;
+}
+
+#libros {
+  padding-inline-start: 0;
+}
+
+.contenido {
+  float: left;
+  width: 33%;
+  list-style: none;
+}

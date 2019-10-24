@@ -1,0 +1,8 @@
+
+/**
+	* CSS Flexible Layout Module - Caja Flexible -
+*/
+#viajes {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,28 @@
+ul.menu {
+  width: 180px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #7C7C7C;ç
+  background-image: url(imagenes/flecha_inactiva.png);
+}
+ul.menu li {
+  border-bottom: 1px solid #7C7C7C;
+  border-top: 1px solid #FFF;
+  background: #F4F4F4;
+  background-image: url(imagenes/flecha_inactiva.png);
+  background-repeat: no-repeat;
+  back
+}
+ul.menu li a {
+  padding: .2em 0 .2em 1.3em;
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+ul.menu li:hover {
+  background-image: url(imagenes/flecha_activa.png);
+  background-repeat: no-repeat;
+  background-color: #E4E4E4;
+}

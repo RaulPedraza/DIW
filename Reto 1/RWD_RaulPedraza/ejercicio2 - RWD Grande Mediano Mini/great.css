@@ -1,0 +1,25 @@
+.display-great {
+	display: inline;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+header, footer, #wrapper {
+	
+}
+
+#main-nav {
+	float: left;
+	width: 20%;
+}
+
+#main-section {
+	float: left;
+	width: 80%;
+}
+
+footer {
+	clear: both;;
+}

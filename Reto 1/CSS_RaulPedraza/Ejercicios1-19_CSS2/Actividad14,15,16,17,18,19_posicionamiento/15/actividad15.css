@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #A1A6A6;
+  margin: 0;
+}
+
+h1 {
+  width: 80%;
+  float: left;
+}
+
+h3{
+  background-color: #C5CDCD;
+  color: white;
+  text-align: right;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+p {
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+address {
+  border-top: 2px dashed #B1B5B5;
+  padding: 10px;
+  text-align: center
+}
+
+#L187, #L192, #L197, #L216, #L237{
+  border: 2px solid #838686;
+  margin: 20px 20px;
+}
+
+#calend {
+  background-color: #B1B5B5;
+  width: 20%;
+  height: 100%;
+  float:left;
+  padding-left: 120px;
+}
+
+#diario {
+  float: left;
+  width: 80%;
+  background-color: white;
+  position: absolute;
+  overflow: auto;
+  height: 100%;
+}

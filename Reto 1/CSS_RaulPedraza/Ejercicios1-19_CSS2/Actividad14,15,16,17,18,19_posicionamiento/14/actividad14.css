@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: #A7FE86;
+}
+
+#indice {
+  background-color: #80DCDA;
+  width: 33%;
+  float: left;
+  border: 2px dotted #89CAC9;
+}
+
+#carta {
+  background-color: #AEB2B2;
+  display: inline-block;
+  width: 66%;
+  float: left;
+  margin: 0px 10px;
+}

@@ -1,0 +1,49 @@
+* {
+  max-width: 700px;
+}
+h1 {
+  color: teal;
+}
+
+h2, a em, caption {
+  color: blue;
+}
+
+p strong, a, th{
+  color: red;
+}
+
+.destacado, td strong, table .especial {
+  color: orange;
+}
+
+#adicional a, td {
+  color: green;
+}
+
+.especial {
+  color: purple;
+}
+
+table {
+  border-collapse: collapse;
+
+}
+
+th {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+#adicional p {
+  color: olive;
+}
+
+#especial {
+  color: fuchsia;
+}

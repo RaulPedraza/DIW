@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  background-color: #858C2F;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#jardineria {
+  float:left;
+  margin: 0 60px;
+  margin-left: 500px;
+}
+
+#electricidad {
+  float:left;
+  margin: 0 30px;
+}
+
+#fontaneria {
+  float:left;
+  margin: 0 60px;
+}
+
+#texto {
+  clear: both;
+  font-size: 20px;
+  margin: 0 500px;
+  padding-top: 30px;
+}

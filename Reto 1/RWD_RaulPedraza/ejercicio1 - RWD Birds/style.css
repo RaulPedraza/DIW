@@ -1,0 +1,116 @@
+/*
+-----FUNDAMENTOS RWD-----
+
+Viewport
+Media queries
+Modelo de cajas (propiedad box-sizing)
+
+*/
+* {
+	box-sizing: border-box;
+}
+
+html{
+    font-size: 10px; /*Si no declaramos este valor, por defecto un EM es 16px*/
+}
+
+body{
+	background-color: #222
+}
+
+section{
+	background-color: rgba(255,255,255,.6);
+	font-size: .9em;
+	float: left;
+	margin: 1%;
+	padding: 1em;
+	width: 33%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width: 359px){
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		background: blue;
+	}
+
+	section{
+		background: rgba(255,255,255,.6);
+	  font-size: .9em;
+		float: left;
+		margin: 1%;
+		padding: 1em;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px){
+	body {
+		background: green;
+	}
+
+	section{
+		background: rgba(255,255,255,.6);
+	  font-size: .9em;
+		float: left;
+		margin: 1%;
+		padding: 1em;
+		width: 50%;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+	body {
+		background: red;
+	}
+
+	section{
+		background: rgba(255,255,255,.6);
+	  font-size: .9em;
+		float: left;
+		margin: 1%;
+		padding: 1em;
+		width: 33%;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+	body {
+		background-color: yellow;
+	}
+
+	section{
+		background: rgba(255,255,255,.6);
+	  font-size: .9em;
+		float: left;
+		margin: 1%;
+		padding: 1em;
+		width: 33%;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}

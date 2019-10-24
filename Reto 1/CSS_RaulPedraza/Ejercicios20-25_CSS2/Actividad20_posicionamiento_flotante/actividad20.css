@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  width: 50%;
+  margin-left: 25%;
+}
+
+img {
+  float: left;
+  border: 1px solid #B6B5B5;
+  padding: 10px 10px;
+  width: 250px;
+  height: auto;
+  margin: 30px;
+}

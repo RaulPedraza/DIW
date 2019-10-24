@@ -1,0 +1,47 @@
+table {
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: #FFFF66;
+}
+
+.libra, .euro {
+  background-color: #FFFFCC;
+}
+
+#euro, #dolar, #libra, #yen {
+  background-color: #BFFAFC;
+}
+
+#euro {
+  background-image: url(imagenes/euro.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: left;
+  padding: 15px;
+}
+
+#dolar {
+  background-image: url(imagenes/dolar.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: left;
+  padding: 15px;
+}
+
+#libra {
+  background-image: url(imagenes/libra.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: left;
+  padding: 15px;
+}
+
+#yen {
+  background-image: url(imagenes/yen.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: left;
+  padding: 15px;
+}

@@ -1,0 +1,12 @@
+.display-mini {
+  display: inline;
+}
+
+body {
+
+}
+
+select.display-mini {
+  display: inline;
+  width: 100%;
+}
