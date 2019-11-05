@@ -6,3 +6,49 @@
   display: flex;
   justify-content: space-between;
 }
+
+.viajes-item {
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.uno img, .dos img, .tres img, button  {
+  order: 1;
+  align-self: center;
+}
+
+h2, p, button {
+ order: 2;
+}
+
+.uno {
+  display: flex;
+  background-color: #A2CCE0;
+  order: 3;
+}
+
+.dos {
+  display: flex;
+  background-color: #ACF1A1;
+  order: 2;
+}
+
+.tres {
+  display: flex;
+  background-color: #81CAB8;
+  order: 1;
+}
+
+@media (max-width: 500px){
+  #cabecera {
+    display: none;
+    visibility: hidden;
+  }
+
+  .uno {
+    flex-basis: 100%; 
+  }
+}

@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Primer contenedor para explicar propiedades generales */
+.container {
+  margin: 20px auto;
+  width: 60%;
+  display: grid;
+  grid-template-areas: "azul rojo"
+                       "azul amarillo"
+                       "azul amarillo";
+  grid-template-rows: repeat(3, 75px);
+  grid-template-columns: 25% 75%;
+
+}
+
+#azul {
+  background-color: blue;
+  grid-area: azul;
+}
+
+#rojo {
+  background-color: red;
+  grid-area: rojo;
+}
+
+#amarillo {
+  background-color: yellow;
+  grid-area: amarillo;
+}
+
+/* Segundo contenedor para explicar el auto-grid-flow */
+.main {
+  background-color: darkgray;
+  margin: 20px auto;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 33% repeat(2, 17%) 33%;
+  grid-template-rows: repeat(3, 75px);
+}
+
+.main div:nth-child(1) {
+  background-color: blue;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.main div:nth-child(2) {
+  background-color: burlywood;
+}
+
+.main div:nth-child(3) {
+  background-color: brown;
+}
+
+.main div:nth-child(4) {
+  background-color: green;
+  grid-column-start: 2;
+}
+.main div:nth-child(5) {
+  background-color: black;
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
